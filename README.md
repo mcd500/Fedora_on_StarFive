@@ -10,3 +10,10 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 ### Past images:
 * **2021-April-19:** [Fedora-riscv64-vic7100-dev-raw-image-Rawhide-20210419121453.n.0-sda.raw.zst](https://files.beagle.cc/file/beagleboard-public-2021/images/Fedora-riscv64-vic7100-dev-raw-image-Rawhide-20210419121453.n.0-sda.raw.zst)
   * sha256sum: `e3d0df18d2eeb913aafabbb975c7a8803fdae333643a946b20607060e18df0db`
+
+
+### Latest Fedora image replaced with @Esmil kernel
+## Fedora 2021-May-16 which boots starlight branch which is 5.13-rc2 latest fixes from https://github.com/esmil/linux/tree/starlight
+* [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira.raw.zst](https://drive.google.com/file/d/1jFDkCheXWvjV7lYbEO4FzGpmfU1SukpO/view?usp=sharing)
+* sha256sum: `99b4eff485f2a2d8cb21da7ab2518e5e606850108b06df22a17d942a44ded007`
+* ![](./img/fedora-5.13.0-rc2-a22fc1-s.png)
