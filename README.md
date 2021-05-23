@@ -17,3 +17,18 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 * [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira.raw.zst](https://drive.google.com/file/d/1jFDkCheXWvjV7lYbEO4FzGpmfU1SukpO/view?usp=sharing)
 * sha256sum: `99b4eff485f2a2d8cb21da7ab2518e5e606850108b06df22a17d942a44ded007`
 * ![](./img/fedora-5.13.0-rc2-a22fc1-s.png)
+*  
+* Instruction of writing it with dd
+```sh
+  $ zstd -d Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira.raw.zst
+  $ sudo dd if=Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira.raw of=/dev/location_of_sd bs=4M conv=fsync
+  Wait until console prompt returns. Takes several minutes. It may good to whach dd to finish with `sudo iotop`.
+```
+
+### Latest u-boot binary image
+  1. Enables the full 2MB L2 cache from @davidlt https://github.com/davidlt/opensbi/tree/Fedora
+  2. Includes dtb from latest @esmil kernel
+* [fw_payload.bin.out](https://drive.google.com/file/d/1MDEjy7Aj9_BjJM5ACJRFTvrJIxnWAEjZ/view?usp=sharing)
+* sha256sum `89a0628f0da2ce7d8fa4f746651d5a13bebf54b05e222b484bd93f40a6a91d0a`
+* [Instruction of writing u-boot](
+https://wiki.seeedstudio.com/BeagleV-Make-File-System-Compile-uboot-Kernal/#flash-uboot)
