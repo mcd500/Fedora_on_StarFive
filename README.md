@@ -27,7 +27,7 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
   Wait until console prompt returns. Takes several minutes. It may good to whach dd to finish with `sudo iotop`.
 ```
 
-### Latest u-boot binary image
+### Custom u-boot binary image
   1. Enables the full 2MB L2 cache from @davidlt https://github.com/davidlt/u-boot/commits/Fedora https://github.com/davidlt/opensbi/tree/Fedora
   2. Includes dtb from latest @esmil kernel
 * [fw_payload.bin.out](https://drive.google.com/file/d/1CZZHLOEJ1_PLJc0o0lGt8Vl6fuwBUcFc/view?usp=sharing)
