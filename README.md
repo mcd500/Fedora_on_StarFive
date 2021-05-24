@@ -16,7 +16,7 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
   1. Fedora 2021-May-16 which boots starlight branch which is 5.13-rc3 latest fixes from https://github.com/esmil/linux/tree/starlight
   2. Added skb-recycle patches to improve network performance from @teknoraver https://github.com/teknoraver/linux/tree/starfive
   3. Added improving sdcard performance https://github.com/starfive-tech/Fedora_on_StarFive/issues/23
-* [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira-5.13.rc3.raw.zst](https://drive.google.com/file/d/1CZZHLOEJ1_PLJc0o0lGt8Vl6fuwBUcFc/view?usp=sharing)
+* [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira-5.13.rc3.raw.zst](https://drive.google.com/file/d/12c22DfbE2NrDAAkTw0frMICxNFrTu3Y2/view?usp=sharing)
 * sha256sum: `e79a2fb4a1a1be4eb7f14effd37b5c1efb78bc8b58d00a1655228c959d28c45c`
 * ![](./img/fedora-5.13.0.rc3-8c2439.png)
 *  
