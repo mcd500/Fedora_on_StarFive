@@ -30,7 +30,7 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 ### Custom u-boot binary image
   1. Enables the full 2MB L2 cache from @davidlt https://github.com/davidlt/u-boot/commits/Fedora https://github.com/davidlt/opensbi/tree/Fedora
   2. Includes dtb from latest @esmil kernel
-* [fw_payload.bin.out](https://drive.google.com/file/d/1CZZHLOEJ1_PLJc0o0lGt8Vl6fuwBUcFc/view?usp=sharing)
-* sha256sum `226ff2b6cd136b149d81fb3a672e5b6402418e9672bf770478628623d6481137`
+* [fw_payload.bin.out](https://drive.google.com/file/d/161dKga6DNR6Vnpn2nTBcpdgu00a9rJJm/view?usp=sharing)
+* sha256sum `c9197972858d8303823ce9335a8e6ea3d01519417012cccb79600a4d6295d64c`
 * [Instruction of writing u-boot](
 https://wiki.seeedstudio.com/BeagleV-Make-File-System-Compile-uboot-Kernal/#flash-uboot)
