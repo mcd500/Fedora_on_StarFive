@@ -34,3 +34,4 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 * sha256sum `c9197972858d8303823ce9335a8e6ea3d01519417012cccb79600a4d6295d64c`
 * [Instruction of writing u-boot](
 https://wiki.seeedstudio.com/BeagleV-Make-File-System-Compile-uboot-Kernal/#flash-uboot)
+* ![](./img/fw_payload.bin.out-l2-full.png)
