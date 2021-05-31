@@ -17,8 +17,9 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
     1. Adds skb-recycle patches to improve network performance from @teknoraver. https://github.com/teknoraver/linux/tree/starfive
     2. Adds improving sdcard performance. https://github.com/starfive-tech/Fedora_on_StarFive/issues/23
     3. Adds optimization of unaligned access. https://github.com/mcd500/linux-jh7100/tree/starlight-sdimproved-misaligh
-* [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira-5.13.rc4.raw.zst](https://drive.google.com/file/d/1Y9kXMkXHe5y-W-OwZmaZPibCLUlsSRoX/view?usp=sharing)
-* sha256sum: `75dbcca7f480922af74e4b1c0fd33ee3f9af64130d8a88245532f67f741245b5`
+* Download
+    * [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira-5.13.rc4.raw.zst](https://drive.google.com/file/d/1Y9kXMkXHe5y-W-OwZmaZPibCLUlsSRoX/view?usp=sharing)
+    * sha256sum: `75dbcca7f480922af74e4b1c0fd33ee3f9af64130d8a88245532f67f741245b5`
 * ![](./img/fedora-5.13.0.rc4-60f87a-sd-align-fix.png)
 *  
 * Instruction of writing it with dd
@@ -29,10 +30,12 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 ```
 
 ### Custom u-boot binary image
-  1. Enables the full 2MB L2 cache from @davidlt https://github.com/davidlt/u-boot/commits/Fedora https://github.com/davidlt/opensbi/tree/Fedora
-  2. Includes dtb from latest @esmil kernel
-* [fw_payload.bin.out](https://drive.google.com/file/d/1LsBOV58Q2VKkaFgLtlPITwtdDNCytGrM/view?usp=sharing)
-* sha256sum `27e23eb3a03c94b883458aa98dd342f1646de4f80edf628046f4200b65bb66e5`
+*
+    1. Enables the full 2MB L2 cache from @davidlt https://github.com/davidlt/u-boot/commits/Fedora https://github.com/davidlt/opensbi/tree/Fedora
+    2. Includes dtb from latest @esmil kernel
+* Download
+    * [fw_payload.bin.out](https://drive.google.com/file/d/1LsBOV58Q2VKkaFgLtlPITwtdDNCytGrM/view?usp=sharing)
+    * sha256sum `27e23eb3a03c94b883458aa98dd342f1646de4f80edf628046f4200b65bb66e5`
 * [Instruction of writing u-boot](
 https://wiki.seeedstudio.com/BeagleV-Make-File-System-Compile-uboot-Kernal/#flash-uboot)
 * ![](./img/fw_payload.bin.out-l2-full.png)
