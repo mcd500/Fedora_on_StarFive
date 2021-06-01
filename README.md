@@ -20,7 +20,7 @@ This is a respin of Fedora 33 to support the [StarFive JH7100 SoC](https://githu
 * Download
     * [Fedora-riscv64-vic7100-xfce-dev-Rawhide-20210516233526.n.0-sda-akira-5.13.rc4.raw.zst](https://drive.google.com/file/d/1Y9kXMkXHe5y-W-OwZmaZPibCLUlsSRoX/view?usp=sharing)
     * sha256sum: `75dbcca7f480922af74e4b1c0fd33ee3f9af64130d8a88245532f67f741245b5`
-* ![](./img/fedora-5.13.0.rc4-60f87a-sd-align-fix.png)
+* ![](./img/fedora-5.13.0.rc4-60f87a-sd-align-fix-1.jpg)
 *  
 * Instruction of writing it with dd
 ```sh
